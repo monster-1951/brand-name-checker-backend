@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "chromedriver": "^131.0.0",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.26.0"
+  }
+}
