@@ -160,7 +160,7 @@ app.post("/api/check-for-availability", async (req, res) => {
   }
 });
 
-app.get("https://brand-name-checker-backend.onrender.com", async (req, res) => {
+app.get("https://brand-name-checker-backend.onrender.com/", async (req, res) => {
   res.send('Hello, World!');
 });
 
